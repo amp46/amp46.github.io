@@ -1,0 +1,50 @@
+/* telefone */
+@media (max-width: 599px) {
+
+}
+
+/* tablet retrato */
+@media (min-width: 600px) {
+
+}
+
+/* tablet paisagem */
+@media (min-width: 900px) {
+
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* desktop full hd e maiores */
+@media (min-width: 1800px) {
+
+}
+
+
+body {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  padding: 2vmax;
+  background: #fff;
+}
+
+#mainBg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/markus-spiske-aADQoT7mkNM-unsplash.jpg');
+  background-size: cover;
+  background-position: top left;
+}
